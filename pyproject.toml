@@ -12,14 +12,17 @@ classifiers=[
     "License :: OSI Approved :: Apache Software License"
 ]
 
-[tool.setuptools.packages.find]
-where = [""]
-include = ["test_project", "test_project.dog"]
-
 [project.optional-dependencies]
 
 dev = [
     "pre-commit>=3.0.4,<4.0",
+]
+
+[tool.setuptools.packages.find]
+where = [""]
+include = [
+  "test_project",
+  "test_project.dog"
 ]
 
 [tool.ruff]
