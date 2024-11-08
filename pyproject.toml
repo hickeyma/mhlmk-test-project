@@ -22,7 +22,8 @@ dev = [
 where = [""]
 include = [
   "test_project",
-  "test_project.dog"
+  "test_project.cat",
+  "test_project.dog",
 ]
 
 [tool.ruff]
