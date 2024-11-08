@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=60", "setuptools-scm>=8.0"]
+
+[project]
+name = "test_project"
+dynamic = ["version"]
+description = "test project"
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers=[
+    "License :: OSI Approved :: Apache Software License"
+]
+
+[tool.setuptools.packages.find]
+where = [""]
+include = ["test_project", "test_project.dog"]
