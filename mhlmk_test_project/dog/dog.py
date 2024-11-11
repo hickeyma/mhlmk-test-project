@@ -8,7 +8,7 @@ class Dog:
     Class for specifying dog breeds
     """
 
-    attr1 = "mammal"
+    attr1 = "mammals"
     attr2 = "dog"
     is_good = True
 
