@@ -6,7 +6,7 @@ Test Cat class
 import unittest
 
 # First Party
-from test_project.cat import cat
+from mhlmk_test_project.cat import cat
 
 
 class TestCat(unittest.TestCase):

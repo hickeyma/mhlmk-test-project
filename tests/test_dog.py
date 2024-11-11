@@ -6,7 +6,7 @@ Test Dog class
 import unittest
 
 # First Party
-from test_project.dog import dog
+from mhlmk_test_project.dog import dog
 
 
 class TestDog(unittest.TestCase):

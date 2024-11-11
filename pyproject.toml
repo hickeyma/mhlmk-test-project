@@ -2,9 +2,9 @@
 requires = ["setuptools>=60", "setuptools-scm>=8.0"]
 
 [project]
-name = "test_project"
+name = "mhlmk_test_project"
 dynamic = ["version"]
-description = "test project"
+description = "Test project only. Do not use."
 license = {text = "Apache-2.0"}
 readme = "README.md"
 requires-python = ">=3.8"
@@ -19,16 +19,16 @@ dev = [
 ]
 
 [tool.setuptools_scm]
-version_file = "test_project/_version.py"
+version_file = "mhlmk_test_project/_version.py"
 # do not include +gREV local version, required for Test PyPI upload
 local_scheme = "no-local-version"
 
 [tool.setuptools.packages.find]
 where = [""]
 include = [
-  "test_project",
-  "test_project.cat",
-  "test_project.dog",
+  "mhlmk_test_project",
+  "mhlmk_test_project.cat",
+  "mhlmk_test_project.dog",
 ]
 
 [tool.ruff]
