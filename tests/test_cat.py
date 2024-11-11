@@ -2,8 +2,10 @@
 Test Cat class
 """
 
+# Standard
 import unittest
 
+# First Party
 from test_project.cat import cat
 
 
