@@ -5,7 +5,7 @@ Cat class
 
 class Cat:
     """
-    Class for specifying docatg breeds
+    Class for specifying cat breeds
     """
 
     attr1 = "mammal"
