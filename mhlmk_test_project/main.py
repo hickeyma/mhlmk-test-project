@@ -11,6 +11,8 @@ def main():
     """
     main function
     """
+    print("Mammal checking ...")
+
     my_dog = dog.Dog()
     print(f"{my_dog.what_am_i()}")
 
