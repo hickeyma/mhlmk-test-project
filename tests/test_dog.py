@@ -21,7 +21,7 @@ class TestDog(unittest.TestCase):
         """
         testing wham_am_i() nfunction
         """
-        expected_output = "I am a dog first but also a mammal"
+        expected_output = "I am a dog first but also a mammals"
         actual_output = self.dog.what_am_i()
         self.assertEqual(expected_output, actual_output)
 
