@@ -3,8 +3,8 @@ Entry point to run the package
 """
 
 # First Party
-from test_project.cat import cat
-from test_project.dog import dog
+from mhlmk_test_project.cat import cat
+from mhlmk_test_project.dog import dog
 
 
 def main():
